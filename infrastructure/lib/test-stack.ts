@@ -8,7 +8,7 @@ export class TestStack extends Stack {
 
         const testFunction = new GoFunction(this, 'testFunction', {
             entry: '../functions/test',
-            functionName: 'testFunction'
+            functionName: 'testFunction',
         });
     }
 }
